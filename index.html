@@ -5,20 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DW website</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-abc123..." crossorigin="anonymous" />
   <script src="main.js"></script>
 </head>
 <body>
   <header class="header">
     <h1 class="logo">Daniel Wagner</h1>
-    <div class="container">
-      <div class="banner">
-        <img src="photos/nature.jpg" alt="Nature image">
-      </div>
-    </div>
   </header>
   
   <nav class="navbar">
-    <div class="container">
+    <div class="container_1">
+      <div class="banner">
+    </div>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -29,92 +27,50 @@
     </div>
   </nav>
 
-      <button class="menu-toggle" aria-label="Menu" aria-controls="navigation">
-        <span></span>
-      </button>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="container">
-      <h1 class="hero-title">Welcome to Tikva</h1>
-      <p class="hero-text">A beautiful and responsive theme for your website</p>
-      <a class="button" href="#">Get Started</a>
-    </div>
-  </section>
-
   <section class="about">
     <div class="container">
-      <h2 class="section-title">About Us</h2>
-      <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo euismod augue, sed commodo purus ultrices vel. Aliquam vestibulum auctor nisi, nec bibendum justo. Sed sit amet nulla euismod, sagittis elit vel, ullamcorper lectus. Sed vitae lectus rutrum, sodales justo eu, vestibulum velit. Sed vel tincidunt ex. Proin sed feugiat ante, at vulputate nulla.</p>
-      <a class="button" href="#">Learn More</a>
+      <h2 class="section-title">Introduction</h2>
+      <p class="section-text">I'm a 27 years old inspiring front-end developer. Download my CV below</p>
+      <a class="button" href="#">got to Resume</a>
     </div>
   </section>
 
-  <section class="services">
+  <section class="skills">
     <div class="container">
-      <h2 class="section-title">Our Services</h2>
+      <h2 class="section-title">Skills</h2>
       <div class="services-grid">
         <div class="service">
           <i class="icon fas fa-laptop-code"></i>
           <h3 class="service-title">Web Development</h3>
           <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo euismod augue, sed commodo purus ultrices vel.</p>
-        </div>
-        <div class="service">
-          <i class="icon fas fa-palette"></i>
-          <h3 class="service-title">Graphic Design</h3>
-          <p class="service-text">Nullam commodo euismod augue, sed commodo purus ultrices vel. Aliquam vestibulum auctor nisi, nec bibendum justo.</p>
-        </div>
-        <div class="service">
           <i class="icon fas fa-cog"></i>
           <h3 class="service-title">Maintenance & Support</h3>
           <p class="service-text">Sed sit amet nulla euismod, sagittis elit vel, ullamcorper lectus. Sed vitae lectus rutrum, sodales justo eu, vestibulum velit.</p>
+          <i class="fas fa-solid fa-message"></i>
+          <h3 class="service-title">Links</h3>
+          <p class="service-text"></p>
         </div>
         </div>
         </div>
         </section>
         <section class="portfolio">
-            <div class="container">
-            <h2 class="section-title">Our Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                <img class="portfolio-image" src="https://picsum.photos/id/1015/500/300" alt="Portfolio Item">
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title">Project Title</h3>
-                    <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo euismod augue, sed commodo purus ultrices vel.</p>
-                    <a class="button" href="#">View Project</a>
-                </div>
-                </div>
-                <div class="portfolio-item">
-                <img class="portfolio-image" src="https://picsum.photos/id/1020/500/300" alt="Portfolio Item">
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title">Project Title</h3>
-                    <p class="portfolio-text">Aliquam vestibulum auctor nisi, nec bibendum justo. Sed sit amet nulla euismod, sagittis elit vel, ullamcorper lectus.</p>
-                    <a class="button" href="#">View Project</a>
-                </div>
-                </div>
-                <div class="portfolio-item">
-                <img class="portfolio-image" src="https://picsum.photos/id/1019/500/300" alt="Portfolio Item">
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title">Project Title</h3>
-                    <p class="portfolio-text">Sed vitae lectus rutrum, sodales justo eu, vestibulum velit. Proin sed feugiat ante, at vulputate nulla.</p>
-                    <a class="button" href="#">View Project</a>
-                </div>
-                </div>
-                <div class="portfolio-item">
-                <img class="portfolio-image" src="https://picsum.photos/id/1022/500/300" alt="Portfolio Item">
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title">Project Title</h3>
-                    <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo euismod augue, sed commodo purus ultrices vel.</p>
-                    <a class="button" href="#">View Project</a>
-                </div>
-                </div>
-            </div>
-            </div>
+          <table id="project-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Stars</th>
+                <th>Forks</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+
         </section>
         <section class="contact">
             <div class="container">
-            <h2 class="section-title">Contact Us</h2>
+            <h2 class="section-title">Contact</h2>
             <form class="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -128,8 +84,9 @@
         </section>
         <footer class="footer">
             <div class="container">
-            <p>Copyright &copy; 2023 Tikva.</p>
+            <p>Copyright &copy; 2023 Daniel Wagner.</p>
             </div>
         </footer>
+        <script src="script.js"></script>
         </body>
         </html>
