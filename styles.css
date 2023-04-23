@@ -2,25 +2,29 @@ html {
     background-color: rgba(192, 194, 178, 0.774);
 }
 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .logo {
     font-size: 50px;
     margin-left: 10%;
     display: flex;
-}
+    color: rgb(150, 58, 6);
+} 
 
-.container {
-  display: flex;
+.container_1 {
   justify-content: space-between;
   align-items: center;
+  background-image: url('/photos/nature.jpg');
 }
 
 .banner {
-    background-image: url("/photos/nature.jpg");
     background-size: cover;
     background-position: center;  
     height: 300px;
-    width: 80%;
-    margin: 0 auto;
+    margin-right: 10%;
     display: flex;
 }
 
@@ -30,8 +34,8 @@ html {
     padding: 20px;
     list-style: none;
     margin: 0 auto;
-    height: 30px;
-    width: 1428px;
+    height: 40px;
+    width: 96.7%;
 }
 
 .navbar li {
@@ -41,4 +45,18 @@ html {
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover {
+    color: rgb(39, 36, 36)
+}
+
+.skills {
+    background-color: grey;
+    display:inline-table;
+    width: 400px;   
+    position: absolute;
+    top: 55%;
+    right: 17.5%;
+    padding: 5px;
 }
