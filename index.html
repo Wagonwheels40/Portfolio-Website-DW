@@ -6,6 +6,7 @@
   <title>DW website</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-abc123..." crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="main.js"></script>
 </head>
 <body>
@@ -20,9 +21,7 @@
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -31,7 +30,7 @@
     <div class="container">
       <h2 class="section-title">Introduction</h2>
       <p class="section-text">I'm a 27 years old inspiring front-end developer. Download my CV below</p>
-      <a class="button" href="#">got to Resume</a>
+      <a class="button" href="https://docs.google.com/document/d/1-XU-iskFYOaBX350QgRy2BWyg_b4yEoeTu3NRqNUlOE/edit?usp=sharing">CV</a>
     </div>
   </section>
 
@@ -51,21 +50,16 @@
           <p class="service-text"></p>
         </div>
         </div>
-        </div>
+        </div>  
         </section>
-        <section class="portfolio">
-          <table id="project-table">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Stars</th>
-                <th>Forks</th>
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-          </table>
+        <br>
+
+          <section class="portfolio">
+            <h1>GitHub repositories:</h1>
+            <div class="background">
+              <div id="repos-container"></div>
+            </div>
+          </section>
 
         </section>
         <section class="contact">
@@ -88,5 +82,6 @@
             </div>
         </footer>
         <script src="script.js"></script>
+        <script src="git.js"></script>
         </body>
         </html>
