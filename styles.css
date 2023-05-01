@@ -2,11 +2,12 @@
 
 * {
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 html {
-    background-color: rgba(192, 194, 178, 0.774);
-}
+    background-image: linear-gradient(to bottom, #000000ef, #000000de);
+  }
 
 body {
     max-width: 1200px;
@@ -21,9 +22,18 @@ body {
 } 
 
 .container_1 {
-  justify-content: space-between;
-  align-items: center;
-  background-image: url('/photos/nature.jpg');
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/photos/nature.jpg');
+  }
+
+.title {
+    padding-left: 15px;
+    font-size: 50px;
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 33%;
+    height: 25%;
+    color: rgb(255, 81, 0);
 }
 
 .banner {
@@ -35,13 +45,85 @@ body {
 }
 
 .navbar ul {
-    background-color: rgb(199, 92, 30);
+    background-color: rgb(29, 37, 66);
     display: flex;
     padding: 20px;
     list-style: none;
     margin: 0 auto;
     height: 40px;
     width: 96.7%;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(209, 209, 209)
+}
+
+.skills {
+    background-color: rgba(65, 63, 63, 0.336);
+    display:inline-table;
+    width: 400px;   
+    position: absolute;
+    top: 55%;
+    right: 17.5%;
+    padding: 5px;
+}
+
+.portfolio {
+    background: rgb(29, 37, 66);
+    width: 50%;
+    height: 500%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+}
+
+.background {
+    background: rgb(37, 46, 80);
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.contact-form label,
+.contact-form input {
+  display: block;
+  width: 300px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact {
+    background-color: rgb(29, 37, 66);
+    width: 50%;
+    height: 400%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: rgb(37, 46, 80);
+    padding: 5px;
 }
 
 .navbar li {
