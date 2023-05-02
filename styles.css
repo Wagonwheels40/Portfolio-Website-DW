@@ -5,6 +5,11 @@
     color: white;
 }
 
+#links {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
 html {
     background-image: linear-gradient(to bottom, #000000ef, #000000de);
   }
@@ -124,61 +129,4 @@ a:hover {
 .box {
     background-color: rgb(37, 46, 80);
     padding: 5px;
-}
-
-.navbar li {
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: rgb(39, 36, 36)
-}
-
-.skills {
-    background-color: grey;
-    display:inline-table;
-    width: 400px;   
-    position: absolute;
-    top: 55%;
-    right: 17.5%;
-    padding: 5px;
-}
-
-.portfolio {
-    background: rgb(85, 84, 84);
-    width: 50%;
-    height: 500%;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    scroll-behavior: smooth;
-    border-radius: 5px;
-}
-
-.background {
-    background: grey;
-}
-
-.contact-form label,
-.contact-form input {
-  display: block;
-  width: 300px;
-  height: 20px;
-  margin-bottom: 10px;
-}
-
-.contact-form textarea {
-    display: block;
-    width: 500px;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-.contact-form label {
-  font-weight: bold;
 }
