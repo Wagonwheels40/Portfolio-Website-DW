@@ -1,0 +1,17 @@
+• Identifying the key components of a PC -  motherboards, processors, memory, storage devices, input/output devices and networking components.
+
+• Understanding the common PC operating systems - Windows, macOS, and Linux, and their features, functions, and user interfaces.
+
+• Troubleshooting common hardware and software issues using a variety of diagnostic tools and techniques.
+
+• Installing, configuring, and managing PC operating systems, including user accounts, permissions, and security settings.
+
+• Understanding basic networking concepts, such as IP addressing, protocols and services, and configuring and troubleshooting network connectivity issues.
+
+• Implementing basic security measures to protect systems and data, such as anti-virus software, firewalls, and encryption.
+
+• Understanding mobile device technologies and their management, including iOS and Android devices.
+
+• Demonstrating effective communication and customer service skills when working with end-users and stakeholders.
+
+• Understanding the importance of maintaining and updating systems, and implement appropriate backup and recovery procedures.
