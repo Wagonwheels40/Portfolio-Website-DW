@@ -151,3 +151,7 @@ a:hover {
     height: 2px;
     background-color: rgb(71, 87, 150);
 }
+
+.Qualifications {
+    max-width: 50%;
+}
