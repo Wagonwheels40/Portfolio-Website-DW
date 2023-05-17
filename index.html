@@ -10,6 +10,15 @@
   <script src="main.js"></script>
 </head>
 <body>
+
+  <div class="language-select">
+    <label for="language-select">Select Language:</label>
+    <select id="language-select" onchange="changeLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+    </select>
+  </div>
+
   <header class="header">
     <h1 class="logo"></h1>
   </header>
@@ -72,7 +81,7 @@
         <section class="contact">
           <h2 class="section-title">Contact:</h2>
             <div class="box">
-            <form class="contact-form">
+            <form class="contact-form" id="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -90,6 +99,9 @@
         </footer>
         <script src="script.js"></script>
         <script src="git.js"></script>
-        <script src="contact.js"></script>
+        <script src="test.js"></script>
+        <script src="language.js"></script>
         </body>
         </html>
+
+        <!--LinguiJS:, Google Translate API:, i18next use one of these maybe-->
