@@ -155,3 +155,18 @@ a:hover {
 .Qualifications {
     max-width: 50%;
 }
+
+.about-container {
+    display: flex;
+    grid-gap: 100px; /* Gap between columns */
+    margin-top: 50px;
+}
+
+.column p {
+    width: 500px;
+}
+
+.language-select {
+    padding: 5px;
+    margin-left: 80%;
+}
