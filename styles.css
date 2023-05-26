@@ -44,12 +44,16 @@ body {
   }
   
 
-h2, h3 {
+h1, h2, h3 {
     color: rgb(150, 58, 6);
 }
 
 .service-title {
     color: rgb(150, 58, 6);
+}
+
+.skills-title {
+    text-align: center;
 }
 
 .container_1 {
@@ -113,9 +117,19 @@ a:hover {
     display:inline-table;
     width: 400px;   
     position: absolute;
-    top: 55%;
+    top: 25%;
     right: 17.5%;
     padding: 5px;
+}
+
+.picture {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(71, 87, 150);
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 
 .portfolio {
