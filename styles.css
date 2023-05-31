@@ -24,12 +24,17 @@ body {
   margin-left: 95%;
 }
 
-.container {
-  max-width: 1200px;
+.container-1 {
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
   align-items: flex-start;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin-left: 20px; /* Added margin-left */
 }
 
 .navbar {
@@ -69,6 +74,8 @@ body {
   background-color: white;
   padding: 40px;
   margin-top: 40px;
+  width: 900px;
+  margin-left: 50px;
 }
 
 .section-title {
@@ -103,6 +110,7 @@ body {
 .skills {
   padding: 40px;
   margin-top: 40px;
+  max-width: 1000px;
 }
 
 .picture {
