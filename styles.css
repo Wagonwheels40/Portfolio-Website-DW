@@ -32,9 +32,30 @@ body {
   align-items: flex-start;
 }
 
+.main-container {
+  padding: 10px;
+  width: 1200px;
+  height: 400px;
+  margin-bottom: 50px;
+  display: flex; /* Add flex display */
+}
+
+.about {
+  flex: 1; /* Add flex property */
+}
+
 .resume-container {
-  max-width: 800px;
-  margin-left: 20px; /* Added margin-left */
+  max-width: 1000px;
+  margin-left: 50px; /* Adjust margin-left to create space between containers */
+}
+
+.button {
+  width: 145px;
+}
+
+.resume-frame iframe {
+  width: 300%;
+  height: 500px;
 }
 
 .navbar {
