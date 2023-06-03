@@ -18,6 +18,7 @@
 
 body {
   background-color: var(--background-color);
+  padding-bottom: 200px;
 }
 
 #flags {
@@ -34,7 +35,7 @@ body {
 
 .main-container {
   padding: 10px;
-  width: 1200px;
+  width: 80%;
   height: 400px;
   margin-bottom: 50px;
   display: flex; /* Add flex display */
@@ -47,14 +48,16 @@ body {
 .resume-container {
   max-width: 1000px;
   margin-left: 50px; /* Adjust margin-left to create space between containers */
+  flex: 1;
 }
 
 .button {
   width: 145px;
 }
 
+
 .resume-frame iframe {
-  width: 300%;
+  width: 150%;
   height: 500px;
 }
 
@@ -129,9 +132,29 @@ body {
 }
 
 .skills {
+  position: relative;
+  top: 70px;
   padding: 40px;
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 0;
   max-width: 1000px;
+}
+
+.dropdown-btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-btn:focus {
+  outline: none;
+}
+
+#resume-iframe {
+  display: none;
 }
 
 .picture {
@@ -204,7 +227,9 @@ body {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: -100px;
+  position: relative;
+  bottom: -200px;
 }
 
 .footer p {
