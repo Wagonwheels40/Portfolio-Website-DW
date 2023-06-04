@@ -6,23 +6,26 @@
   <title>DW website</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-abc123..." crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="main.js"></script>
 </head>
 <body>
-  <header class="header">
-    <h1 class="logo"></h1>
-  </header>
-  
+
+  <div id="flags">
+    <span class="flag-icon flag-icon-au"></span>
+    <span class="flag-icon flag-icon-de"></span>
+  </div>
+
   <nav class="navbar">
-    <div class="container_1">
-      <div class="banner">
-        <h1 class="title">Daniel Wagner</h1>
-    </div>
+    <div class="container">
+      <div class="logo">
+        <h1>Daniel Wagner</h1>
+      </div>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="https://wordpress.com/view/dwtraveljournal.wordpress.com">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -30,74 +33,102 @@
   <section class="about">
     <div class="container">
       <h2 class="section-title">About Me</h2>
-      <p class="section-text">I have worked in various industries in the past, with my most recent role being at 'Statewide Independent Wholesalers' in Tasmania where I worked in a distribution warehouse for two and ½ years. While I enjoyed the job, it was physically demanding and not something I could see myself doing in the long term. This led me to explore other opportunities, and so I decided to enroll in a Certificate III of IT at TasTAFE.</p>
-      <p class="section-text">While studying the course, I found myself drawn to the programming cluster, and I spent hours each day working on improving my skills through online resources like 'freecodecamp' and 'sololearn'. As I gained more experience, I started working on projects. Throughout this process, I learned how to create websites and apps by using ‘HTML’, ‘CSS’, ‘Javascript’, and became familiar with library frameworks such as ‘Bootstrap’, ‘jQuery’ and ‘React’. I have also made my own sports analysis apps using 'Python'.</p>
-      <p class="section-text">My interest in the design aspect of building websites through 'HTML' and 'CSS' led me to pursue a career as a front-end developer. I have created a 'Github' page to showcase my projects, and I plan to continue expanding my knowledge and skill set.</p>
-      <p class="section-text">Currently, I have been learning coding for approximately seven months, and I am still as eager to work on small projects and learn more every day as I was when I first started my IT course. Please refer to the 'Coding Work' tab to see some of the projects I have displayed and there will also be a link to my ‘GitHub’ page. I would love the opportunity to showcase my skills and contribute to your company.</p>
-      <p class="section-text">Please don’t hesitate to get in touch with me here.</p>
+      <p class="section-text">I originally became interesting in the Tech industry when I started my Certificate III of IT at TasTAFE in Tasmania.</p>
+      <p class="section-text">While studying the course, I was particularly interested in the the programming clusters of the course. </p>
+      <p class="section-text">I learned how to use ‘HTML’ and ‘CSS’ to create webpages and I also made an application lodging portal app using ‘Python’.</p>
+      <p class="section-text">I continued self-studing using resources like ‘FreeCodeCamp’ and ‘The Odin Project’ to further my coding skills and I uploaded my projects to <a href="https://github.com/wagonwheels40">‘Github’</a>.</p>
+      <p class="section-text">I have also recently completed my CompTIA A+ certificate.</p>
     </div>
   </section>
-
-  <span class="line-break"></span>
-
-  <section class="Qualifications">
-    <div class="about-container">
-      <div class="column">
-        <h2 class="section-title">Qualifications</h2>
-        <h3 class="section-header">TasTAFE - Certificate III in IT (July 2022 - December 2022)</h3>
-        <p class="section-text">• Installing and testing basic network protocols.</p>
-        <p class="section-text">• Providing basic system administration.</p>
-        <p class="section-text">• Installing, configuring and securing a small office or home office network.</p>
-        <p class="section-text">• Running standard diagnostic tests.</p>
-        <p class="section-text">• Maintaining and reparing ICT equipment and software.</p>
-        <p class="section-text">• Applying introductory programming techniques.</p>
-        <p class="section-text">• Creating basic websites.</p>
-      </div>
-
-      <div class="column">
-        <h3 class="section-header">CompTIA A+ Certificate (August 2023)</h3>
-        <p class="section-text">• Identifying the key components of a PC -  motherboards, processors, memory, storage devices, input/output devices and networking components.</p>
-        <p class="section-text">• Understanding the common PC operating systems - Windows, macOS, and Linux, and their features, functions, and user interfaces.</p>
-        <p class="section-text">• Troubleshooting common hardware and software issues using a variety of diagnostic tools and techniques.</p>
-        <p class="section-text">• Installing, configuring, and managing PC operating systems, including user accounts, permissions, and security settings.</p>
-        <p class="section-text">• Understanding basic networking concepts, such as IP addressing, protocols and services, and configuring and troubleshooting network connectivity issues.</p>
-        <p class="section-text">• Implementing basic security measures to protect systems and data, such as anti-virus software, firewalls, and encryption.</p>
-        <p class="section-text">• Understanding mobile device technologies and their management, including iOS and Android devices.</p>
-        <p class="section-text">• Demonstrating effective communication and customer service skills when working with end-users and stakeholders.</p>
-        <p class="section-text">• Understanding the importance of maintaining and updating systems, and implement appropriate backup and recovery procedures.</p>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <section class="employment">
+          <h2>Employment History:</h2>
+          <ul>
+            <li>
+              <strong>Warehouse Storeperson</strong>
+              <ul>
+                  <em>Statewide Independent Wholesalers</em>
+                    <h5>Nov 2020 – Aug 2023</h5>
+                   <h4>Launceston, Tasmania, Australia</h4>
+                <li>Responsible for operating warehouse machinery and using voice-pick technology.</li>
+                <li>Skilled at using GPC machines, High-level order picking, and electric pallet-jacks.</li>
+                <li>Committed to maintaining a safe work environment by adhering to work health and safety guidelines and implementing safe manual handling techniques.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Fruit Picker</strong>
+              <ul>
+                <li><em>Berried In Tas</em></li>
+                <li>Jul 2020 – Nov 2020</li>
+                <li>Responsible for picking and packaging raspberries and strawberries.</li>
+                <li>Supervised groups of workers.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Team Member (Green Army)</strong>
+              <ul>
+                <li><em>Conservation Volunteers Australia</em></li>
+                <li>Aug 2017 – Sep 2018</li>
+                <li>Carried out tasks such as bush weeding and tree planting.</li>
+                <li>Proficient in using tools like loppers, secateurs, and spades.</li>
+                <li>Committed to maintaining a safe work environment by adhering to work health and safety guidelines.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+  
+        <section class="qualifications">
+          <h2>Qualifications:</h2>
+          <ul class="qualifications-list">
+            <li>
+              <strong>University of Tasmania - Bachelor of Arts (2014 – 2017 August)</strong>
+              <ul>
+                <li>Completed a Bachelor of Arts degree with a major in Japanese and a minor in German.</li>
+                <li>Proficient in Japanese and fluent in German, including fluency in reading, writing, and speaking.</li>
+                <li>Worked as an English/German language tutor, providing instruction to students of various proficiency levels.</li>
+                <li>Developed expertise in translation of technical content from English to Japanese/German.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>TasTAFE - Certificate III in IT (July 2022 - December 2022)</strong>
+              <ul>
+                <li>Installing and testing basic network protocols.</li>
+                <li>Providing basic system administration.</li>
+                <li>Installing, configuring, and securing a small office or home office network.</li>
+                <li>Running standard diagnostic tests.</li>
+                <li>Maintaining and repairing ICT equipment and software.</li>
+                <li>Applying introductory programming techniques.</li>
+                <li>Creating basic websites.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CompTIA A+ Certificate (August 2023)</strong>
+              <ul>
+                <li>Identifying the key components of a PC - motherboards, processors, memory, storage devices, input/output devices, and networking components.</li>
+                <li>Understanding the common PC operating systems - Windows, macOS, and Linux, and their features, functions, and user interfaces.</li>
+                <li>Troubleshooting common hardware and software issues using a variety of diagnostic tools and techniques.</li>
+                <li>Installing, configuring, and managing PC operating systems, including user accounts, permissions, and security settings.</li>
+                <li>Understanding basic networking concepts, such as IP addressing, protocols and services, and configuring and troubleshooting network connectivity issues.</li>
+                <li>Implementing basic security measures to protect systems and data, such as anti-virus software, firewalls, and encryption.</li>
+                <li>Understanding mobile device technologies and their management, including iOS and Android devices.</li>
+                <li>Demonstrating effective communication and customer service skills when working with end-users and stakeholders.</li>
+                <li>Understanding the importance of maintaining and updating systems and implementing appropriate backup and recovery procedures.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
       </div>
     </div>
-  </section>
+  </div>
 
-  <span class="line-break"></span>
-    <section class="Qualifications">
-      <div class="about-container">
-        <div class="column">
-          <h3 class="section-header">Bachelor of Arts (2014 - 2017 August)</h3> <!-- Check dates-->
-          <p class="section-text">• Proficient in Japanese and fluent in German, including fluency in reading, writing and speaking.</p>
-          <p class="section-text">• Completed a Bachelor of Arts degree with a major in Japanese and a minor in German.</p>
-          <p class="section-text">• Worked as a English/German language tutor, providing instruction to students of various proficiency levels.</p>
-          <p class="section-text">• Developed expertise in translation of technical content from English to Japanese/German.</p>
-        </div>
-
-        <div class="column">
-          <h3 class="section-header">Newstead College (2012 - 2013)</h3>
-          <p class="section-text">• Developed my critical thinking and problem-solving skills through complex coursework and research assignments.</p>
-          <p class="section-text">• Continued my previous studies in German studies and gained further proficiency in the language.</p>
-        </div>
-      </div>
-    </section>
-  <span class="line-break"></span>
-
-        <footer class="footer">
-            <div class="container">
-            <p>Copyright &copy; 2023 Daniel Wagner.</p>
-            </div>
-        </footer>
-        <script src="script.js"></script>
-        <script src="git.js"></script>
-        <script src="contact.js"></script>
-      </body>
-    </html>
-
-        <!-- I still want those last two containers to be facing the same row-->
+  <footer class="footer">
+    <div class="container"></div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="git.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
