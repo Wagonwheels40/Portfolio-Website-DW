@@ -40,7 +40,10 @@
           <div class="content">
             <h2 class="section-title">Introduction</h2>
             <p class="section-text">Hi there! I'm Daniel, and I'm a 27-year-old front-end developer. See my CV below.</p>
-            <a class="button" href="https://docs.google.com/document/d/1-XU-iskFYOaBX350QgRy2BWyg_b4yEoeTu3NRqNUlOE/edit?usp=sharing">Download CV</a>
+            <div class="button-group">
+              <a class="dropdown-btn" href="https://docs.google.com/document/d/1-XU-iskFYOaBX350QgRy2BWyg_b4yEoeTu3NRqNUlOE/edit?usp=sharing">Download CV</a>
+              <button class="dropdown-btn" onclick="toggleIframe()">View CV</button>
+            </div>
           </div>
         </div>
       </div>
@@ -49,12 +52,13 @@
     <section class="resume-container">
       <div class="container">
         <div class="resume-frame">
-          <button class="dropdown-btn" onclick="toggleIframe()">View Resume</button>
-            <iframe id="resume-iframe" src="/New resume.pdf" width="100%" height="500px" frameborder="0"></iframe>
+            <iframe id="resume-iframe" src="/New resume.pdf" width="100%" height="500px" frameborder="0" style="display: none;"></iframe>
         </div>
       </div>
     </section>
   </section>
+
+
 
 
   <section class="skills">
@@ -94,7 +98,6 @@
   </footer>
 
   <script src="script.js"></script>
-  <script src="iframe.js"></script>
 </body>
 
 </html>
