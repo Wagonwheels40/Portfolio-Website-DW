@@ -35,7 +35,6 @@ body {
 
 .main-container {
   padding: 10px;
-  width: 80%;
   height: 400px;
   margin-bottom: 50px;
   display: flex; /* Add flex display */
@@ -47,14 +46,8 @@ body {
 
 .resume-container {
   max-width: 1000px;
-  margin-left: 50px; /* Adjust margin-left to create space between containers */
-  flex: 1;
+  flex: 1; /* Add flex property */
 }
-
-.button {
-  width: 145px;
-}
-
 
 .resume-frame iframe {
   width: 150%;
@@ -90,8 +83,12 @@ body {
 }
 
 .logo h1 {
-  color: white;
+  color: #ddab8c;
   font-size: 24px;
+}
+
+.logo h1:hover {
+  color: #bb7e58;
 }
 
 .about {
@@ -100,6 +97,38 @@ body {
   margin-top: 40px;
   width: 900px;
   margin-left: 50px;
+}
+
+.employment,
+.qualifications {
+  display: inline-block;
+  vertical-align: top;
+  gap: 40px;
+  max-width: 40%;
+  margin-left: 100px;
+}
+
+.employment ul,
+.qualifications ul {
+  flex: 1;
+}
+
+.employment li,
+.qualifications li {
+  margin-bottom: 20px;
+}
+
+.employment h2,
+.qualifications h2 {
+  margin-bottom: 10px;
+}
+
+.qualifications-list {
+  margin-top: 20px;
+}
+
+.qualifications ul {
+  margin-top: 10px;
 }
 
 .section-title {
@@ -116,21 +145,6 @@ body {
   display: block;
 }
 
-.button {
-  display: inline-block;
-  background-color: var(--accent-color);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #9b593d;
-}
-
 .skills {
   position: relative;
   top: 70px;
@@ -140,17 +154,30 @@ body {
   max-width: 1000px;
 }
 
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
 .dropdown-btn {
-  background-color: var(--primary-color);
+  display: inline;
+  background-color: var(--accent-color);
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .dropdown-btn:focus {
   outline: none;
+}
+
+.dropdown-btn:hover {
+  background-color: #9b593d;
 }
 
 #resume-iframe {
@@ -235,3 +262,4 @@ body {
 .footer p {
   font-size: 14px;
 }
+
