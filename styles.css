@@ -4,7 +4,7 @@
   --primary-color: #007714;
   --secondary-color: #3f816b;
   --accent-color: #bb7e58;
-  --background-color: #f5f5f5;
+  --background-color: #213641;
   --text-color: #333333;
 }
 
@@ -38,6 +38,7 @@ body {
   height: 400px;
   margin-bottom: 50px;
   display: flex; /* Add flex display */
+  width: 80%;
 }
 
 .about {
@@ -79,7 +80,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  text-decoration: underline;
+  color: rgb(250, 231, 231);
 }
 
 .logo h1 {
@@ -182,6 +183,8 @@ body {
 
 #resume-iframe {
   display: none;
+  width: 150%;
+  padding-left: 20px;
 }
 
 .picture {
@@ -217,7 +220,7 @@ body {
 }
 
 .service {
-  background-color: white;
+  background-color: rgba(58, 98, 117, 0.8);
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
