@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background: linear-gradient(75deg, var(--secondary-color), 80%, rgb(43, 51, 54) 100%);
   padding-bottom: 200px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
@@ -60,6 +60,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 1000px;
+  margin-left: 25%;
 }
 
 .resume-frame iframe {
@@ -67,50 +68,64 @@ body {
   height: 500px;
 }
 
-.navbar {
-  background: linear-gradient(75deg, var(--secondary-color), 80%, var(--accent-color) 100%);
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar h1 {
-  padding-left: 10px;
-}
-
-.navbar ul {
+.navbar .logo {
   display: flex;
-  list-style: none;
   align-items: center;
-  padding: 5px;
+  margin-right: 10px;
 }
 
-.navbar ul li {
-  margin-left: 20px;
+.navbar .logo #flags {
+  margin-left: 10px;
 }
 
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
 }
 
-.navbar ul li a:hover {
-  color: rgb(250, 231, 231);
+.navbar .navbar-right .navbar-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  position: fixed;
+  top: 20%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 50px;
+  color: var(--text-color);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
 }
 
-.logo h1 {
-  color: #ddab8c;
-  font-size: 24px;
+.nav-button:hover {
+  background-color: #9b593d;
+  transform: scale(1.1);
 }
-
-.logo h1:hover {
-  color: #bb7e58;
-}
-
+/* Not changing color for buttons */
 .about {
   background-color: rgba(58, 98, 117, 0.8);
   padding: 40px;
@@ -284,6 +299,3 @@ body {
 .footer p {
   font-size: 14px;
 }
-
-
-
