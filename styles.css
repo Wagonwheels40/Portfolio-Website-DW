@@ -26,7 +26,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 105vh;
 }
 
 #flags {
@@ -43,7 +43,7 @@ body {
 /* change the bottom */
 .main-container {
   padding: 5px;
-  height: 400px;
+  height: 300px;
   margin-bottom: 50px;
   display: flex; /* Add flex display */
   width: 80%;
@@ -128,7 +128,7 @@ body {
   background-color: rgba(58, 98, 117, 0.8);
   padding: 5px;
   margin-top: 30px;
-  width: 900px;
+  width: 700px;
   margin-left: 50px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   flex: 1; /* Add flex property */
@@ -208,8 +208,12 @@ body {
   gap: 10px;
 }
 
+body.modal-open .dropdown-btn {
+  position: fixed;
+}
+
 .dropdown-btn {
-  display: inline;
+  display: inline-block;
   background-color: var(--accent-color);
   color: white;
   padding: 10px 20px;
@@ -217,9 +221,11 @@ body {
   border-radius: 4px;
   cursor: pointer;
   margin-bottom: 10px;
+  margin-top: 10px;
   text-decoration: none;
   font-size: 15px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: static;
 }
 
 .dropdown-btn:focus {
@@ -362,13 +368,17 @@ h1 {
 }
 
 .footer {
-    background-color: var(--secondary-color);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: auto;
-  }
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
   
   .footer p {
     font-size: 14px;
