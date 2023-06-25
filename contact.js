@@ -1,33 +1,33 @@
-    const form = document.querySelector('.contact-form');
-    form.addEventListener('submit', (event) => {
-        event.preventDefault(); // Prevents the default form submission behaviour
+const form = document.getElementById('contact-form');
 
-    // Get form values
-    const name = form.querySelector('#name').value;
-    const email = form.querySelector('#email').value;
-    const message = form.querySelector('#message').value;
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
 
-    // Create a new FormData object
-    const formData = new FormData();
-    formData.append('name', name);
-    formData.append('email', email);
-    formData.append('message', message);
+    // Perform form validation
+    if (!validateForm()) {
+      return;
+    }
 
-    // Send the form data using fetch
-    fetch('https://formsubmit.co/ajax/#', {
-        method: 'POST',
-        body: formData,
-        headers: {
-            'Accept': 'application/json'
-        }
-    })
-    .then(response => {
-        if (response.ok) {
-            alert('Message sent successfully!');
-            form.reset(); // Resets the form fields
-        } else {
-            throw new Error('Network response was not ok.');
-        }
-    })
-    .catch(error => alert(`Error: ${error.message}`));
-});
+    // Get form data
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Perform form submission (replace with your own code)
+    submitForm(name, email, message);
+
+    // Reset the form after submission
+    form.reset();
+  });
+
+  function validateForm() {
+    // Add your form validation logic here
+    // Return true if the form is valid, otherwise return false
+    return true;
+  }
+
+  function submitForm(name, email, message) {
+    // Add your form submission logic here
+    // You can use AJAX or any other method to submit the form data to your server
+    console.log(`Form submitted:\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
+  }
