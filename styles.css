@@ -387,6 +387,10 @@ h1 {
   color: black;
 }
 
+.form-control {
+  color: black;
+}
+
 .footer {
   background-color: var(--secondary-color);
   color: white;
