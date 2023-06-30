@@ -366,29 +366,57 @@ h1 {
     padding-bottom: 60px;
 }
 
+.github-container {
+  width: 50%;
+  height: 500px;
+  overflow: auto;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 60px;
+  background-color: var(--background-color);
+  border-radius: 5px;
+}
+
+.github-container::-webkit-scrollbar {
+  width: 20px; 
+}
+
+.github-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 5px; 
+}
+
+.github-container::-webkit-scrollbar-thumb {
+  background: var(--accent-color); 
+  border-radius: 5px;
+}
+
 .contact-container {
-  width: 20%;
-  height: 10%;
+  width: 30%;
+  height: 15%;
   margin-left: 40%;
   margin-top: 10%;
   padding: 20px;
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  background-color: var(--secondary-color);
 }
 
 .contact-container .form-group {
   padding: 5px; 
+  width: 100%;
 }
 
 .contact-container textarea {
   display: block;
-  padding: 5px;
   color: black;
+  width: 100%;
 }
 
 .form-control {
   color: black;
+  width: 40%;
 }
 
 .footer {
