@@ -42,7 +42,7 @@ body {
 /* change the bottom */
 .main-container {
   padding-top: 5px;
-  margin-top: 15px;
+  margin-top: 65px;
   margin-left: auto;
   margin-right: 510px;
   height: 250px;
@@ -71,7 +71,7 @@ body {
   position: relative;
   top: 0;
   padding: 90px;
-  margin-top: -5%;
+  margin-top: -3%;
   margin-bottom: 0%;
   max-width: 1000px;
 }
@@ -474,4 +474,9 @@ h1 {
 .footer-logo {
   height: 20px;
   width: 100px;
+} 
+
+.footer-container {
+  margin-left: 90%;
+  font-size: 20px;
 }
