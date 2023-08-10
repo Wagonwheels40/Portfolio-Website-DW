@@ -132,6 +132,8 @@ body {
 .nav-button:hover {
   background-color: #9b593d;
   transform: scale(1.1);
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .employment,
@@ -499,7 +501,7 @@ h1 {
 
 .contact-container {
   width: 30%;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-top: 10%;
   padding: 20px;
   overflow: hidden;
@@ -541,9 +543,13 @@ h1 {
   bottom: 0;
 }
   
-.footer p {
-  font-size: 14px;
-  text-align: left;
+.footer-container a i {
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+.footer-container a i:hover {
+  color: var(--accent-color);
 }
 
 .footer-logo {
