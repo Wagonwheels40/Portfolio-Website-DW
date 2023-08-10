@@ -250,7 +250,7 @@ body.modal-open .dropdown-btn {
 
 .dropdown-btn:focus,
 .dropdown-btn:active {
-  outline: none; /* Remove default focus outline */
+  outline: none; 
 }
 
 .overlay {
@@ -259,18 +259,18 @@ body.modal-open .dropdown-btn {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for darkness */
+  background-color: rgba(0, 0, 0, 0.7); 
   display: none;
-  z-index: 999; /* Place it above other elements */
+  z-index: 999; 
 }
 
 .overlay.active {
-  display: block; /* Show the overlay when active */
-  overflow: hidden; /* Prevent scrolling when the overlay is active */
+  display: block; 
+  overflow: hidden; 
 }
 
 body.modal-open {
-  overflow: hidden; /* Prevent scrolling when modal is open */
+  overflow: hidden; 
 }
 
 .modal {
@@ -365,7 +365,7 @@ body.modal-open {
 }
 
 .web-dev-service {
-  height: 430px; /* Adjust the height as needed */
+  height: 430px; 
 }
 
 .maintenance-service {
