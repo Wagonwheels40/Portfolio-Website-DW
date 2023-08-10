@@ -17,14 +17,14 @@ function typeOutSentence(sentence) {
 }
 
 function openModal() {
-  $('#resume-modal').modal('show'); // Use Bootstrap's modal show method
-  overlay.classList.add("active"); // Add the 'active' class to the overlay
+  $('#resume-modal').modal('show'); 
+  overlay.classList.add("active"); 
   document.body.classList.add("modal-open");
 }
 
 function closeModal() {
-  $('#resume-modal').modal('hide'); // Use Bootstrap's modal hide method
-  overlay.classList.remove("active"); // Remove the 'active' class from the overlay
+  $('#resume-modal').modal('hide'); 
+  overlay.classList.remove("active");
   document.body.classList.remove("modal-open");
 }
 
