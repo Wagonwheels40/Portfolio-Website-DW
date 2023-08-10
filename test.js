@@ -3,7 +3,7 @@ const button = form.querySelector('button');
 
 button.addEventListener('click', (event) => {
     event.preventDefault();
-    sendData(); // Call the function to send the data to the server
+    sendData(); 
 })
 
 function sendData() {
@@ -26,10 +26,8 @@ function sendData() {
         return;
     }
 
-    // Sending the email using mailto URL
     const mailtoURL = `mailto:wagonwheels40@tutanota.com?subject=Message from ${name}&body=${message}`;
     window.location.href = mailtoUrl;
 
-    // Reset the form
     form.reset();
 };
