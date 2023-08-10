@@ -4,9 +4,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
-  const emailJSUserId = '';
-  const emailJSServiceId = '';
-  const emailJSTemplateId = '';
+  const emailJSUserId = '5D5qyDND_7eD3d2yp';
+  const emailJSServiceId = 'service_uz72dc9';
+  const emailJSTemplateId = 'template_ugvnwhj';
 
   emailjs.init(emailJSUserId);
 
