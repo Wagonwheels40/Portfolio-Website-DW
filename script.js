@@ -1,4 +1,4 @@
-const sentence = "I'm Daniel, and I'm a 28 year old front-end developer.";
+const sentence = "I'm Daniel and I'm a 28 year old front-end developer.";
 const typingEffect = document.getElementById("typing-effect");
 const modal = document.getElementById("resume-modal");
 const openModalButton = document.getElementById("open-modal-btn");
@@ -24,7 +24,7 @@ function openModal() {
 
 function closeModal() {
   $('#resume-modal').modal('hide'); 
-  overlay.classList.remove("active");
+  overlay.classList.remove("active"); 
   document.body.classList.remove("modal-open");
 }
 
