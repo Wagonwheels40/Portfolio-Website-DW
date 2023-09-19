@@ -1,4 +1,4 @@
-const sentence = "I'm Daniel and I'm a 28 year old front-end developer.";
+const sentence = "Hi there, I'm Daniel.";
 const typingEffect = document.getElementById("typing-effect");
 const modal = document.getElementById("resume-modal");
 const openModalButton = document.getElementById("open-modal-btn");
