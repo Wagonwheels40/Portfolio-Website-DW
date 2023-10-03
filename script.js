@@ -1,4 +1,4 @@
-const sentence = "I'm Daniel.";
+const sentence = "I'm Daniel.  Click below to see my CV";
 const typingEffect = document.getElementById("typing-effect");
 const modal = document.getElementById("resume-modal");
 const openModalButton = document.getElementById("open-modal-btn");
